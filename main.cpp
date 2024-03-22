@@ -50,10 +50,12 @@ public:
 
     bool valideornot(){
         if(note >= 10){
-            cout << Person::getNom() << " a valide" << endl;
+            //cout << Person::getNom() << " a valide" << endl;
+            cout << nom << " a valide" << endl;
             return true;
         } else {
-            cout << Person::getNom() << " sa9t" << endl;
+            //cout << Person::getNom() << " sa9t" << endl;
+            cout << nom << " sa9t" << endl;
             return false;
         }
     }
